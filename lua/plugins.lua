@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
   }
 
   use 'windwp/nvim-autopairs'
+  use 'lewis6991/gitsigns.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
